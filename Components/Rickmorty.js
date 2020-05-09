@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.css";
 export default class Rickmorty extends Component {
   state = {
     characters: [],
