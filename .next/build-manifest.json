@@ -14,7 +14,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/About": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/Ejercicio": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/Test": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
@@ -29,6 +37,10 @@
     "/_polyfills": [
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
+    ],
+    "/blog/Notas": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
     ],
     "/index": [
       "static/runtime/webpack.js",

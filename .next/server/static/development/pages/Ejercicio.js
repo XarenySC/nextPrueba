@@ -124,36 +124,29 @@ module.exports = require("next/dist/next-server/lib/utils.js");
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navigation */ "./Components/Navigation.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Navigation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navigation */ "./Components/Navigation.js");
 var _jsxFileName = "/Users/SALCO/Desktop/nextPrueba/Components/Layout.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 const Layout = ({
   children
 }) => {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, __jsx(_Navigation__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_Navigation__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
       columnNumber: 7
     }
-  }), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "3919494543",
-    __self: undefined
-  }, "div.jsx-3919494543{color:purple;}img.jsx-3919494543{display:block;widht:50%;margin:auto;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9TQUxDTy9EZXNrdG9wL25leHRQcnVlYmEvQ29tcG9uZW50cy9MYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBT2tCLEFBR2tDLEFBR0EsYUFGakIsQ0FHYyxVQUNFLFlBQ2hCIiwiZmlsZSI6Ii9Vc2Vycy9TQUxDTy9EZXNrdG9wL25leHRQcnVlYmEvQ29tcG9uZW50cy9MYXlvdXQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IE5hdmlnYXRpb24gZnJvbSAnLi9OYXZpZ2F0aW9uJ1xuXG5jb25zdCBMYXlvdXQgPSAoeyBjaGlsZHJlbiB9KSA9PiB7XG4gIHJldHVybiAoXG4gICAgPD5cbiAgICAgIDxOYXZpZ2F0aW9uIC8+XG4gICAgICA8c3R5bGUganN4PntgXG4gICAgICAgICAgICAgICBkaXZ7XG4gICAgICAgICAgICAgICAgICAgIGNvbG9yOiBwdXJwbGU7XG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgIGltZ3tcbiAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpibG9jaztcbiAgICAgICAgICAgICAgICAgICAgd2lkaHQ6IDUwJTtcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiBhdXRvO1xuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGB9PC9zdHlsZT5cbiAgICAgIDxkaXY+e2NoaWxkcmVufTwvZGl2PlxuICAgIDwvPlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IExheW91dDsiXX0= */\n/*@ sourceURL=/Users/SALCO/Desktop/nextPrueba/Components/Layout.js */"), __jsx("div", {
-    className: "jsx-3919494543",
+  }), __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 8,
       columnNumber: 7
     }
   }, children));
@@ -183,7 +176,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Navigation = () => {
   return __jsx("nav", {
-    class: "navbar navbar-expand-lg navbar-dark bg-dark",
+    className: "navbar navbar-expand-lg navbar-dark bg-dark",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -222,7 +215,7 @@ const Navigation = () => {
       columnNumber: 7
     }
   }, __jsx("ul", {
-    className: "navbar-nav",
+    className: "navbar-nav ml-auto",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -361,6 +354,7 @@ class Rickmorty extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     if (this.state.cargando) {
       return __jsx("h1", {
+        className: "titulo",
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -379,6 +373,7 @@ class Rickmorty extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
         columnNumber: 7
       }
     }, __jsx("h1", {
+      className: "titulo",
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -395,73 +390,65 @@ class Rickmorty extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       }
     }, this.state.characters.map(character => {
       return __jsx("div", {
-        className: "col-sm-12 col-md-4",
-        key: character.id,
+        className: "col-sm-12 col-md-4 mb-4",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 30,
           columnNumber: 15
         }
-      }, __jsx("img", {
-        src: character.image,
-        alt: character.name,
+      }, __jsx("div", {
+        className: "card",
+        key: character.id,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 31,
           columnNumber: 17
         }
-      }), __jsx("span", {
+      }, __jsx("img", {
+        src: character.image,
+        alt: character.name,
+        class: "card-img-top",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32,
-          columnNumber: 17
+          columnNumber: 19
         }
-      }, "Nombre: "), character.name, " ", __jsx("br", {
+      }), __jsx("ul", {
+        className: "list-group list-group-flush",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33,
-          columnNumber: 34
+          columnNumber: 19
         }
-      }), __jsx("span", {
+      }, __jsx("li", {
+        className: "list-group-item",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 34,
-          columnNumber: 17
+          columnNumber: 21
         }
-      }, "Status: "), character.status, __jsx("br", {
+      }, "Nombre:", character.name), __jsx("li", {
+        className: "list-group-item",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 21
+        }
+      }, "Status:", character.status), __jsx("li", {
+        className: "list-group-item",
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 36,
-          columnNumber: 17
+          columnNumber: 21
         }
-      }), __jsx("span", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 37,
-          columnNumber: 17
-        }
-      }, "Especie: "), character.species, __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 39,
-          columnNumber: 17
-        }
-      }), __jsx("br", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 40,
-          columnNumber: 17
-        }
-      }));
+      }, "Especie:", character.species))));
     }), "  "));
   }
 
@@ -2187,6 +2174,7 @@ const Ejercicio = () => {
       columnNumber: 5
     }
   }, __jsx("h1", {
+    className: "titulo",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2260,17 +2248,6 @@ module.exports = require("react");
 /***/ (function(module, exports) {
 
 module.exports = require("react-is");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
 
 /***/ }),
 

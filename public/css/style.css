@@ -1,0 +1,18 @@
+html, body{
+background-color: black;
+color: whitesmoke;
+}
+.imagen{
+  max-width: 100%;
+}
+
+.titulo{
+  text-align: center;
+  margin: 1rem;
+}
+
+
+
+.list-group-item, list-group list-group-flush, .card{
+  background-color: rgba(45, 45, 45, 0.345);
+}

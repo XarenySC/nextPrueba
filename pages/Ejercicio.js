@@ -4,7 +4,7 @@ import Rickmorty from '../Components/Rickmorty';
 const Ejercicio = () => {
   return (
     <Layout>
-      <h1>Morty</h1>
+      <h1 className="titulo">Morty</h1>
       <Rickmorty />
     </Layout>
   )
