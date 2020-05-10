@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
       <Navigation />
       <style jsx>{`
                div{
-                    color: violet;
+                    color: purple;
                 }
                 img{
                     display:block;

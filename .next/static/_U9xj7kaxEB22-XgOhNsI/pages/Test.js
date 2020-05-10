@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{hZgL:function(n,t,e){(window.__NEXT_P=window.__NEXT_P||[]).push(["/Test",function(){return e("mF59")}])},mF59:function(n,t,e){"use strict";e.r(t);var u=e("q1tI"),o=e.n(u),w=e("plLG"),i=o.a.createElement;t.default=function(){return i(w.a,null,i("h1",null,"Test"))}}},[["hZgL",0,1,2,3]]]);
